@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../fragments/Layout';
 
-const Worldcup = () => {
+const FootballWorldCup = () => {
 	return (
 		<Layout>
 			<h1>Qatar 2022 FIFA World Cup: A Spectacle of Soccer in the Desert</h1>
@@ -82,4 +82,4 @@ const Worldcup = () => {
 	);
 };
 
-export default Worldcup;
+export default FootballWorldCup;

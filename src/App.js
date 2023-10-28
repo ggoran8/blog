@@ -1,12 +1,12 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { MainPage, WorldCup, About } from './pages';
+import { Home, FootballWorldCup, About } from './pages';
 
 function App() {
 	return (
 		<Routes>
-			<Route path='/' element={<MainPage />} />
-			<Route path='/worldcup' element={<WorldCup />} />
+			<Route path='/' element={<Home />} />
 			<Route path='/about' element={<About />} />
+			<Route path='/footballworldcup' element={<FootballWorldCup />} />
 			<Route path='*' element={<Navigate to='/' />} />
 		</Routes>
 	);
