@@ -13,6 +13,20 @@ const MainPage = () => {
 						Qatar 2022 FIFA World Cup: A Spectacle of Soccer in the Desert
 					</Link>
 				</section>
+				<section>
+					<Link to='/handballworldcup'>
+						<img src={space} alt='a' />
+						Egypt 2021 World Cup: A Showcase of Skill, Tenacity, and Global
+						Sportsmanship
+					</Link>
+				</section>
+				<article>
+					<Link to='/lolworlds'>
+						<img src={space} alt='a' />
+						Rifts and Rivalries: The 2022 League of Legends World Championship
+						Unveiled
+					</Link>
+				</article>
 			</main>
 		</Layout>
 	);
