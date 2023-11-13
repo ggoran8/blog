@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '../fragments/Layout';
+import Layout from '../../fragments/Layout';
 import { Link } from 'react-router-dom';
-import space from '../components/assets/space.jpg';
+import space from '../../components/assets/pictures/space.jpg';
 
 const MainPage = () => {
 	return (

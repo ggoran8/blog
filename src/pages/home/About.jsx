@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../fragments/Layout';
+import Layout from '../../fragments/Layout';
 
 const About = () => {
 	return (
