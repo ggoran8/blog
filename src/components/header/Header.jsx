@@ -6,8 +6,12 @@ const Header = () => {
 	return (
 		<header>
 			<div className={styles.firstHeader}>
-				<div className={styles.letterG}>
-					<div className={styles.borderG}>G</div>
+				<div className={styles.letterNav}>
+					<div className={styles.borderLetterG}>
+						<Link className={styles.letterG} to='/'>
+							G
+						</Link>
+					</div>
 				</div>
 				<h1 className={styles.title}>
 					<Link to='/'>Blog & Newsletter</Link>
@@ -24,11 +28,29 @@ const Header = () => {
 			<div>
 				<nav>
 					<ul className={styles.secondNav}>
-						<li>
-							<NavLink to='/'>Home</NavLink>
+						<li className={styles.listLink}>
+							<NavLink
+								className={({ isActive }) =>
+									isActive
+										? `${styles.listLink} ${styles.listLinkActive}`
+										: styles.listLink
+								}
+								to='/'
+							>
+								Home
+							</NavLink>
 						</li>
-						<li>
-							<NavLink to='/about'>About</NavLink>
+						<li className={styles.listLink}>
+							<NavLink
+								className={({ isActive }) =>
+									isActive
+										? `${styles.listLink} ${styles.listLinkActive}`
+										: styles.listLink
+								}
+								to='/about'
+							>
+								About
+							</NavLink>
 						</li>
 					</ul>
 				</nav>

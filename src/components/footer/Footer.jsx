@@ -7,18 +7,21 @@ import styles from './Footer.module.css';
 const Footer = () => {
 	return (
 		<footer>
-			<nav>
-				<h3>My contacts!</h3>
-				<a href='mailto: gorangajsek22@gmail.com'>
-					<Mail />
-				</a>
-				<a href='https://twitter.com/'>
-					<Twitter />
-				</a>
-				<a href='https://www.instagram.com/'>
-					<Instagram />
-				</a>
-				<small>2023 Goran</small>
+			<nav className={styles.footerNav}>
+				<h3 className={styles.contacts}>My contacts!</h3>
+				<div className={styles.firstFooter}>
+					<a href='mailto: gorangajsek22@gmail.com'>
+						<Mail />
+					</a>
+					<a href='https://twitter.com/'>
+						<Twitter />
+					</a>
+					<a href='https://www.instagram.com/'>
+						<Instagram />
+					</a>
+				</div>
+				<p>Thank you for visiting.</p>
+				<small>© 2023 Goran</small>
 			</nav>
 		</footer>
 	);
