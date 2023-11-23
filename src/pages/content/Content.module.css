@@ -1,0 +1,11 @@
+.blogArticle {
+	width: 30%;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 24px 0;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
