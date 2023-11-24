@@ -9,3 +9,13 @@ h1,
 h2 {
 	text-align: center;
 }
+
+section {
+	padding: 4px 0 24px 0;
+}
+
+.pageImage {
+	width: 100%;
+	height: auto;
+	padding: 16px 0;
+}

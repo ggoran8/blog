@@ -1,12 +1,18 @@
 import React from 'react';
 import Layout from '../../fragments/Layout';
 import styles from './Content.module.css';
+import fbworldcup from '../../components/assets/pictures/fbworldcup.jpg';
 
 const FootballWorldCup = () => {
 	return (
 		<Layout>
 			<div className={styles.blogArticle}>
 				<h1>Qatar 2022 FIFA World Cup: A Spectacle of Soccer in the Desert</h1>
+				<img
+					className={styles.pageImage}
+					src={fbworldcup}
+					alt='World cup trophey'
+				/>
 				<h2>Introduction</h2>
 				<section>
 					The FIFA World Cup, the pinnacle of international soccer, is set to
@@ -49,14 +55,13 @@ const FootballWorldCup = () => {
 					borders. In Qatar, this will be even more evident, with fans from
 					diverse backgrounds uniting to celebrate the sport they love.
 				</section>
-				<h2>Key Matches to Watch:</h2>
-				Opening Match: The inaugural match promises to set the tone for the
-				entire tournament.
-				<br /> Clashes of Titans: Matches between football giants like Brazil,
-				Germany, and Argentina are always thrilling.
-				<br /> Underdog Stories: Keep an eye on teams looking to upset the
-				established order.
-				<br />
+				<h2>Key Matches to Watch</h2>
+				<section>
+					Opening Match: The inaugural match promises to set the tone for the
+					entire tournament. Clashes of Titans: Matches between football giants
+					like Brazil, Germany, and Argentina are always thrilling. Underdog
+					Stories: Keep an eye on teams looking to upset the established order.
+				</section>
 				<h2>Cultural Experiences</h2>
 				<section>
 					Apart from soccer, Qatar offers a rich tapestry of cultural
@@ -75,11 +80,10 @@ const FootballWorldCup = () => {
 					event, where soccer enthusiasts from all over the globe will come
 					together to celebrate their love for the game. As we anticipate the
 					kickoff, the world is watching with bated breath, eager to witness
-					history being made in the desert.
-					<br /> So mark your calendars, because Qatar 2022 is set to deliver a
-					World Cup experience like no other. As the world unites in its passion
-					for soccer, this tournament will undoubtedly be etched into the annals
-					of football history.
+					history being made in the desert. So mark your calendars, because
+					Qatar 2022 is set to deliver a World Cup experience like no other. As
+					the world unites in its passion for soccer, this tournament will
+					undoubtedly be etched into the annals of football history.
 				</section>
 			</div>
 		</Layout>
