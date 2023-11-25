@@ -1,0 +1,22 @@
+.mainPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.firstSection {
+	flex-grow: 2;
+}
+
+.secondSection {
+	flex-grow: 1;
+}
+
+.thirdSection {
+	flex-grow: 1;
+}
+
+.main {
+	flex: 1;
+}
