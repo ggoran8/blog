@@ -46,7 +46,7 @@ const MainPage = () => {
 				</section>
 				<section className={styles.secondSection}>
 					<Link to='/handballworldcup'>
-						<img src={space} alt='a' />
+						<img className={styles.testImage} src={space} alt='a' />
 						<p>
 							Egypt 2021 World Cup: A Showcase of Skill, Tenacity, and Global
 							Sportsmanship

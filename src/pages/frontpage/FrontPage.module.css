@@ -1,19 +1,14 @@
 .mainPage {
-	display: flex;
+	display: grid;
+	grid-template-areas: 'sidecontent content sidebar';
+	grid-template-columns: 300px 600px 300px;
 	justify-content: center;
-	align-items: center;
+	gap: 20px;
+	padding: 24px 0;
+	text-align: center;
 }
 
-.firstSection {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 25%;
-}
-
-.secondSection {
-	flex-basis: 40%;
-}
-
-.thirdSection {
-	flex-basis: 25%;
+.testImage {
+	width: 100%;
+	height: auto;
 }
