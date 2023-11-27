@@ -1,14 +1,104 @@
 .mainPage {
 	display: grid;
-	grid-template-areas: 'sidecontent content sidebar';
-	grid-template-columns: 300px 600px 300px;
+	grid-template-areas: 'sidecontent content';
+	grid-template-columns: 300px 600px;
 	justify-content: center;
 	gap: 20px;
-	padding: 24px 0;
+	padding: 24px 0 0 0;
 	text-align: center;
 }
 
 .testImage {
 	width: 100%;
 	height: auto;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 16px;
+}
+
+.mainBlogPage {
+	padding-top: 32px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.mainLeftImage {
+	width: 100%;
+	height: auto;
+}
+
+.mainPageSecondPart {
+	display: grid;
+	grid-template-areas: 'content sidecontent';
+	grid-template-columns: 700px 350px;
+	justify-content: center;
+	gap: 20px;
+	padding: 24px 0;
+	text-align: center;
+	border-top: 1px solid rgb(226, 232, 235);
+}
+
+.articleParagraph {
+	margin-left: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 42px;
+	border-radius: 16px;
+	background-color: rgb(196, 199, 200);
+	padding: 0;
+}
+
+.borderLetterG {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: smaller;
+	width: 42px;
+	height: 42px;
+	border-radius: 8px;
+	background-color: rgb(83, 140, 250);
+}
+
+.letterNav {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 16px;
+}
+
+.letterG {
+	color: white;
+}
+
+.secondPartParagraph {
+	font-size: 15px;
+}
+
+.testDiv {
+	padding: 8px 0;
+	text-align: left;
+}
+
+.annoying {
+	display: flex;
+}
+
+.imageRightSide {
+	padding-left: 8px;
+}
+
+.articleParagraphSmall {
+	display: flex;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+span {
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(157, 157, 157);
 }

@@ -30,6 +30,6 @@ footer {
 	gap: 16px;
 }
 
-p {
+.footerParagraph {
 	padding-bottom: 8px;
 }

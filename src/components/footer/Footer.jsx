@@ -20,7 +20,7 @@ const Footer = () => {
 						<Instagram />
 					</a>
 				</div>
-				<p>Thank you for visiting.</p>
+				<p className={styles.footerParagraph}>Thank you for visiting.</p>
 				<small>© 2023 Goran</small>
 			</nav>
 		</footer>
