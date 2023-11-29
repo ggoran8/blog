@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '../../fragments/Layout';
 import { Link } from 'react-router-dom';
-import space from '../../components/assets/pictures/space.jpg';
 import styles from './FrontPage.module.css';
+import { football, handball, lolworlds } from '..';
 
 const MainPage = () => {
 	return (
@@ -11,7 +11,7 @@ const MainPage = () => {
 				<section>
 					<div>
 						<Link to='/footballworldcup'>
-							<img className={styles.mainLeftImage} src={space} alt='a' />
+							<img className={styles.mainLeftImage} src={football} alt='a' />
 							<p>
 								Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 								the Desert
@@ -20,7 +20,7 @@ const MainPage = () => {
 					</div>
 					<div>
 						<Link to='/handballworldcup'>
-							<img className={styles.mainLeftImage} src={space} alt='a' />
+							<img className={styles.mainLeftImage} src={handball} alt='a' />
 							<p>
 								Egypt Handball 2021 World Cup: A Showcase of Skill, Tenacity,
 								and Global Sportsmanship
@@ -29,7 +29,7 @@ const MainPage = () => {
 					</div>
 					<div>
 						<Link to='/lolworlds'>
-							<img className={styles.mainLeftImage} src={space} alt='a' />
+							<img className={styles.mainLeftImage} src={lolworlds} alt='a' />
 							<p>
 								Rifts and Rivalries: The 2022 League of Legends World
 								Championship Unveiled
@@ -40,7 +40,7 @@ const MainPage = () => {
 				<section className={styles.secondSection}>
 					<div>
 						<Link to='/footballworldcup'>
-							<img className={styles.testImage} src={space} alt='a' />
+							<img className={styles.testImage} src={football} alt='a' />
 							<p className={styles.mainBlogPage}>
 								Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 								the Desert
@@ -63,7 +63,7 @@ const MainPage = () => {
 										Learn more about the football World Cup held in Qatar 2022!
 									</span>
 								</p>
-								<img className={styles.imageRightSide} src={space} alt='a' />
+								<img className={styles.imageRightSide} src={football} alt='a' />
 							</div>
 						</Link>
 					</div>
@@ -78,7 +78,7 @@ const MainPage = () => {
 										Learn more about the handball World Cup held in Egypt 2022!
 									</span>
 								</p>
-								<img className={styles.imageRightSide} src={space} alt='a' />
+								<img className={styles.imageRightSide} src={handball} alt='a' />
 							</div>
 						</Link>
 					</div>
@@ -94,7 +94,11 @@ const MainPage = () => {
 										2022!
 									</span>
 								</p>
-								<img className={styles.imageRightSide} src={space} alt='a' />
+								<img
+									className={styles.imageRightSide}
+									src={lolworlds}
+									alt='a'
+								/>
 							</div>
 						</Link>
 					</div>

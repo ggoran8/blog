@@ -27,7 +27,7 @@ p {
 
 .mainLeftImage {
 	width: 100%;
-	height: auto;
+	height: 200px;
 }
 
 .mainPageSecondPart {
@@ -89,6 +89,7 @@ p {
 
 .imageRightSide {
 	padding-left: 8px;
+	width: 230px;
 }
 
 .articleParagraphSmall {
