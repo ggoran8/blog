@@ -105,10 +105,10 @@ const MainPage = () => {
 				</div>
 				<div>
 					<div className={styles.letterNav}>
-						<div className={styles.borderLetterG}>
-							<Link className={styles.letterG} to='/'>
+						<div>
+							<a href='#top' className={styles.letterG}>
 								G
-							</Link>
+							</a>
 						</div>
 					</div>
 					<p className={styles.secondPartParagraph}>

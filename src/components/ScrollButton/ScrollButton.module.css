@@ -1,0 +1,14 @@
+.buttonStyle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background-color: rgb(83, 140, 250);
+	border-radius: 8px;
+	cursor: pointer;
+	color: white;
+	height: 42px;
+	width: 42px;
+	bottom: 50px;
+	right: 50px;
+}

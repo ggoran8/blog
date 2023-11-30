@@ -6,3 +6,4 @@ export { default as About } from './frontpage/About';
 export { default as football } from '../components/assets/pictures/football.jpeg';
 export { default as handball } from '../components/assets/pictures/handball.jpeg';
 export { default as lolworlds } from '../components/assets/pictures/lolworlds.jpg';
+export { default as arrowup } from '../components/assets/icons/arrow-up.svg';
