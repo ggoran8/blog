@@ -36,9 +36,13 @@ p {
 	grid-template-columns: 700px 350px;
 	justify-content: center;
 	gap: 20px;
-	padding: 24px 0;
+	padding: 24px 0 0 0;
 	text-align: center;
 	border-top: 1px solid rgb(226, 232, 235);
+}
+
+.secondSection {
+	background-color: rgb(237, 242, 244);
 }
 
 .articleParagraph {
@@ -101,5 +105,11 @@ p {
 span {
 	font-size: 12px;
 	font-weight: 600;
+	color: rgb(157, 157, 157);
+}
+
+.mainPageParagraph {
+	padding: 16px 16px;
+	font-size: 12px;
 	color: rgb(157, 157, 157);
 }

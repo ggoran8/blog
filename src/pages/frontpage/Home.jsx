@@ -44,6 +44,14 @@ const MainPage = () => {
 							<p className={styles.mainBlogPage}>
 								Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 								the Desert
+								<p className={styles.mainPageParagraph}>
+									The FIFA World Cup, the pinnacle of international soccer, is
+									set to captivate the world once again, this time in the
+									mystical sands of Qatar. In 2022, the beautiful game will come
+									alive in a unique setting, where tradition and modernity
+									harmoniously collide. Join us on a journey to explore the
+									magic that awaits in the upcoming FIFA World Cup.
+								</p>
 							</p>
 						</Link>
 					</div>
