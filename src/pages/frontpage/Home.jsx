@@ -105,7 +105,7 @@ const MainPage = () => {
 				</div>
 				<div>
 					<div className={styles.letterNav}>
-						<div>
+						<div className={styles.borderLetterG}>
 							<a href='#top' className={styles.letterG}>
 								G
 							</a>
