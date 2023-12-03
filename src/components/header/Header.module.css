@@ -13,7 +13,6 @@ li {
 .letterNav {
 	font-size: 32px;
 	font-weight: 600;
-	flex-basis: 25%;
 }
 
 .letterG {
@@ -68,10 +67,11 @@ li {
 }
 
 .title {
-	flex-basis: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	margin: 0 42px 0 0;
 	font-size: 24px;
 	font-weight: 700;
 }
@@ -79,4 +79,29 @@ li {
 a {
 	text-decoration: none;
 	color: rgb(62, 91, 103);
+}
+
+@media (max-width: 425px) {
+	.firstHeader {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 16px 24px;
+		gap: 12px;
+	}
+
+	.letterNav {
+		font-size: 32px;
+		font-weight: 600;
+		flex-basis: 5%;
+	}
+
+	.title {
+		flex-basis: 95%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 24px;
+		font-weight: 700;
+	}
 }

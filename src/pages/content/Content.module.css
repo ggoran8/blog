@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	text-align: justify;
 	padding: 24px 0;
+	color: rgb(62, 91, 103);
 }
 
 h1,
@@ -19,8 +20,4 @@ article {
 	width: 100%;
 	height: auto;
 	padding: 16px 0;
-}
-
-.sectionText {
-	padding: 24px 0;
 }

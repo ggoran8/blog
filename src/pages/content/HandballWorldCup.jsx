@@ -12,13 +12,15 @@ const HandballWorldCup = () => {
 					Sportsmanship
 				</h1>
 				<img className={styles.pageImage} src={fbworldcup} alt='' />
-				<h2>Introduction</h2>
 				<section>
-					In the thrilling world of handball, the year 2021 marked a pivotal
-					moment as nations converged for the Handball World Cup, creating a
-					spectacle that transcended borders and celebrated the essence of
-					teamwork and skill. Held in Egypt, this tournament was a testament to
-					the enduring spirit of handball enthusiasts worldwide.
+					<h2>Introduction</h2>
+					<section>
+						In the thrilling world of handball, the year 2021 marked a pivotal
+						moment as nations converged for the Handball World Cup, creating a
+						spectacle that transcended borders and celebrated the essence of
+						teamwork and skill. Held in Egypt, this tournament was a testament
+						to the enduring spirit of handball enthusiasts worldwide.
+					</section>
 				</section>
 				<h2>Host Country's Embrace</h2>
 				<section>

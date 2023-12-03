@@ -8,7 +8,7 @@ const MainPage = () => {
 	return (
 		<Layout>
 			<div className={styles.mainPage}>
-				<section>
+				<section className={styles.mobileRemoved}>
 					<div>
 						<Link to='/footballworldcup'>
 							<img className={styles.mainLeftImage} src={football} alt='a' />
@@ -114,9 +114,7 @@ const MainPage = () => {
 				<div>
 					<div className={styles.letterNav}>
 						<div className={styles.borderLetterG}>
-							<a href='#top' className={styles.letterG}>
-								G
-							</a>
+							<div className={styles.letterG}>G</div>
 						</div>
 					</div>
 					<p className={styles.secondPartParagraph}>
