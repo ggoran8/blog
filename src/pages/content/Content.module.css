@@ -21,3 +21,12 @@ article {
 	height: auto;
 	padding: 16px 0;
 }
+
+@media (max-width: 425px) {
+	.blogArticle {
+		width: 80%;
+		text-align: justify;
+		padding: 24px 0;
+		color: rgb(62, 91, 103);
+	}
+}

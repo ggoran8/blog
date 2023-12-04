@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../fragments/Layout';
 import styles from './Content.module.css';
-import fbworldcup from '../../components/assets/pictures/fbworldcup.jpg';
+import handball from '../../components/assets/pictures/handball.jpeg';
 
 const HandballWorldCup = () => {
 	return (
@@ -11,7 +11,7 @@ const HandballWorldCup = () => {
 					Egypt 2021 World Cup: A Showcase of Skill, Tenacity, and Global
 					Sportsmanship
 				</h1>
-				<img className={styles.pageImage} src={fbworldcup} alt='' />
+				<img className={styles.pageImage} src={handball} alt='' />
 				<section>
 					<h2>Introduction</h2>
 					<section>

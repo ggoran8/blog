@@ -12,7 +12,7 @@ const MainPage = () => {
 					<div>
 						<Link to='/footballworldcup'>
 							<img className={styles.mainLeftImage} src={football} alt='a' />
-							<p>
+							<p className={styles.mainPageTitleParagraph}>
 								Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 								the Desert
 							</p>
@@ -21,7 +21,7 @@ const MainPage = () => {
 					<div>
 						<Link to='/handballworldcup'>
 							<img className={styles.mainLeftImage} src={handball} alt='a' />
-							<p>
+							<p className={styles.mainPageTitleParagraph}>
 								Egypt Handball 2021 World Cup: A Showcase of Skill, Tenacity,
 								and Global Sportsmanship
 							</p>
@@ -30,7 +30,7 @@ const MainPage = () => {
 					<div>
 						<Link to='/lolworlds'>
 							<img className={styles.mainLeftImage} src={lolworlds} alt='a' />
-							<p>
+							<p className={styles.mainPageTitleParagraph}>
 								Rifts and Rivalries: The 2022 League of Legends World
 								Championship Unveiled
 							</p>
@@ -63,7 +63,7 @@ const MainPage = () => {
 					<div className={styles.testDiv}>
 						<Link to='/footballworldcup'>
 							<div className={styles.annoying}>
-								<p>
+								<p className={styles.mainPageTitleParagraph}>
 									Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 									the Desert
 									<br />
@@ -78,7 +78,7 @@ const MainPage = () => {
 					<div className={styles.testDiv}>
 						<Link to='/handballworldcup'>
 							<div className={styles.annoying}>
-								<p>
+								<p className={styles.mainPageTitleParagraph}>
 									Egypt Handball 2021 World Cup: A Showcase of Skill, Tenacity,
 									and Global Sportsmanship
 									<br />
@@ -93,7 +93,7 @@ const MainPage = () => {
 					<div className={styles.testDiv}>
 						<Link to='/lolworlds'>
 							<div className={styles.annoying}>
-								<p>
+								<p className={styles.mainPageTitleParagraph}>
 									Rifts and Rivalries: The 2022 League of Legends World
 									Championship Unveiled
 									<br />
