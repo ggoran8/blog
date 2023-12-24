@@ -11,7 +11,11 @@ const LoLWorlds = () => {
 					Rifts and Rivalries: The 2022 League of Legends World Championship
 					Unveiled
 				</h1>
-				<img className={styles.pageImage} src={lolworlds} alt='' />
+				<img
+					className={styles.pageImage}
+					src={lolworlds}
+					alt='Arena where the world championship takes place'
+				/>
 				<h2>Introduction</h2>
 				<section>
 					In the dynamic realm of esports, 2022 will forever be etched in the

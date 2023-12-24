@@ -11,7 +11,7 @@ const FootballWorldCup = () => {
 				<img
 					className={styles.pageImage}
 					src={fbworldcup}
-					alt='World cup trophey'
+					alt='Teams that participated in the football world cup'
 				/>
 				<h2>Introduction</h2>
 				<section>

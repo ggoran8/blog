@@ -11,7 +11,7 @@ const HandballWorldCup = () => {
 					Egypt 2021 World Cup: A Showcase of Skill, Tenacity, and Global
 					Sportsmanship
 				</h1>
-				<img className={styles.pageImage} src={handball} alt='' />
+				<img className={styles.pageImage} src={handball} alt='Handball hall' />
 				<section>
 					<h2>Introduction</h2>
 					<section>

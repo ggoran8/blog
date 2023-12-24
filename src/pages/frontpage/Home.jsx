@@ -11,7 +11,11 @@ const MainPage = () => {
 				<section className={styles.mobileRemoved}>
 					<div>
 						<Link to='/footballworldcup'>
-							<img className={styles.mainLeftImage} src={football} alt='a' />
+							<img
+								className={styles.mainLeftImage}
+								src={football}
+								alt='Football on the grass'
+							/>
 							<p className={styles.mainPageTitleParagraph}>
 								Qatar Football 2022 FIFA World Cup: A Spectacle of Football in
 								the Desert
