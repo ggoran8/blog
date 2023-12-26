@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/blog/static/css/main.9c723bd7.css",
+    "main.js": "/blog/static/js/main.a634b14d.js",
+    "static/media/fbworldcup.jpg": "/blog/static/media/fbworldcup.f780b322380b5456eaff.jpg",
+    "static/media/lolworlds.jpg": "/blog/static/media/lolworlds.31082a26966f6670b631.jpg",
+    "static/media/handball.jpeg": "/blog/static/media/handball.e3c96c0fc0b25dac33b0.jpeg",
+    "static/media/football.jpeg": "/blog/static/media/football.c6f07831d29fd63906d1.jpeg",
+    "index.html": "/blog/index.html",
+    "static/media/twitter.svg": "/blog/static/media/twitter.410a9d14144a810542330f7d951ff2cf.svg",
+    "static/media/instagram.svg": "/blog/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "static/media/mail.svg": "/blog/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
+    "static/media/arrow-up.svg": "/blog/static/media/arrow-up.d352f0616dfdf22075e422a9c557acef.svg",
+    "main.9c723bd7.css.map": "/blog/static/css/main.9c723bd7.css.map",
+    "main.a634b14d.js.map": "/blog/static/js/main.a634b14d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c723bd7.css",
+    "static/js/main.a634b14d.js"
+  ]
+}
